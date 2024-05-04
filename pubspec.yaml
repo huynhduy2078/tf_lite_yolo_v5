@@ -1,0 +1,32 @@
+name: flutter_yolov5_app
+description: Sample flutter app of object detection by yolov5
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  tflite_flutter: ^0.9.0
+  tflite_flutter_helper_plus: ^0.0.2
+  camera: ^0.10.4
+  hooks_riverpod: ^2.5.1
+  simple_logger: ^1.8.1+1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
+
